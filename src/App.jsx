@@ -1,9 +1,8 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import "./App.css";
 import "./styles.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MoviesGrid from "./components/MoviesGrid";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,10 +11,9 @@ function App() {
     <div className="App">
       <div className="container">
         <Header></Header>
+        <MoviesGrid></MoviesGrid>
       </div>
-      <footer className="footer">
-        <p className="footer">Footer content here</p>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
